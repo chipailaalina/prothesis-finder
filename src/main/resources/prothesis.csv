@@ -1,0 +1,10 @@
+Sex,Vârst? minim?,Vârst? maxim?,Greutate minim?,Greutate maxim?,Activitate,Densitate ososas? minim?,Densitate osoasa maxim?,Tip de artroplastie,Tip de implant,Tip fixare,Model implant
+M,0,10,30,40,Active,1.5,3,Total,Primary,Concrete,Model1
+M,10,30,40,60,Passive,1.5,3,Hemi,Primary,Concrete,Model2
+F,30,40,50,75,Active,3,5,Total,Revision,Brute,Model3
+M,40,50,60,80,Active,1.5,3,Total,Primary,Concrete,Model4
+F,20,30,40,60,Active,1.5,3,Total,Primary,Concrete,Model5
+M,40,50,60,80,Active,1.5,3,Total,Primary,Brute,Model6
+M,35,50,60,85,Active,1.5,3,Total,Revision,Concrete,Model7
+F,60,75,50,65,Passive,1.5,3,Total,Revision,Brute,Model8
+M,60,75,50,80,Active,1.5,3,Total,Primary,Concrete,Model9
