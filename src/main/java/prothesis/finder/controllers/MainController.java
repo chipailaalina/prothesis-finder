@@ -30,8 +30,7 @@ public class MainController {
         System.out.println("loadProthesis");
         List<Prothesis> inputList = new ArrayList<>();
         try {
-            File inputF = new ClassPathResource("prothesis.csv").getFile();
-            InputStream inputFS = new FileInputStream(inputF);
+            InputStream inputFS = new ClassPathResource("prothesis.csv").getInputStream();
             BufferedReader br = new BufferedReader(new InputStreamReader(inputFS));
             inputList = br.lines().skip(1).map(mapToItem).collect(Collectors.toList());
             prothesisRepository.deleteAll();
