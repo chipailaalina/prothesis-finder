@@ -14,56 +14,60 @@
 
 
 <div class="col-xs-offset-1">
-    <div class="row form-group">
-        <div class="col-xs-1">
-            <label class="control-label"> Sex : </label>
+    <div class="row form-inline col-xs-offset-2">
+        <div class="form-group col-xs-2">
+            <label class="control-label">Sex:</label>
             <select class="form-control filter" id="sex">
                 <option></option>
                 <option>F</option>
                 <option>M</option>
             </select>
         </div>
-        <div class="col-xs-1">
-            <label class="control-label"> Age : </label>
-            <input class="form-control filter" id="age" type="number"/>
+        <div class="form-group col-xs-2">
+            <label class="control-label">Age [years]:</label>
+            <input class="form-control filter" maxlength="5" id="age" type="number"/>
         </div>
-        <div class="col-xs-1">
-            <label class="control-label"> Weight : </label>
-            <input class="form-control filter" id="weight" type="number"/>
+        <div class="form-group col-xs-2">
+            <label class="control-label">Weight [kg]:</label>
+            <input class="form-control filter" maxlength="5"  id="weight" type="number"/>
         </div>
-        <div class="col-xs-1">
-            <label class="control-label"> Activity : </label>
+        <div class="form-group col-xs-2">
+            <label class="control-label">Activity:</label>
             <select class="form-control filter" id="activity">
                 <option></option>
                 <option>Active</option>
                 <option>Passive</option>
             </select>
         </div>
-        <div class="col-xs-1">
-            <label class="control-label"> Bone density : </label>
+    </div>
+    <br>
+    <div class="row form-inline col-xs-offset-2">
+        <div class="form-group col-xs-2">
+            <label class="control-label">Bone density:</label>
             <select class="form-control filter" id="boneDensity">
                 <option></option>
                 <option>Normal</option>
                 <option>Low</option>
             </select>
         </div>
-        <div class="col-xs-2">
-            <label class="control-label"> Arthroplasty type : </label>
+        <div class="form-group col-xs-2">
+            <label class="control-label">Arthroplasty type:</label>
             <select class="form-control filter" id="arthroplastyType">
                 <option></option>
                 <option>Total</option>
                 <option>Hemi</option>
             </select>
-        </div><div class="col-xs-2">
-            <label class="control-label"> Implant type : </label>
+        </div>
+        <div class="form-group col-xs-2">
+            <label class="control-label">Implant type:</label>
             <select class="form-control filter" id="implantType">
                 <option></option>
                 <option>Primary</option>
                 <option>Revision</option>
             </select>
         </div>
-        <div class="col-xs-2">
-            <label class="control-label"> Fixing type : </label>
+        <div class="form-group col-xs-2">
+            <label class="control-label">Fixing type:</label>
             <select class="form-control filter" id="fixingType">
                 <option></option>
                 <option>Cemented</option>
@@ -77,10 +81,10 @@
         <thead>
         <tr>
             <th>Sex</th>
-            <th>Age min</th>
-            <th>Age max</th>
-            <th>Weight min</th>
-            <th>Weight max</th>
+            <th>Age min [years]</th>
+            <th>Age max [years]</th>
+            <th>Weight min [kg]</th>
+            <th>Weight max [kg]</th>
             <th>Activity</th>
             <th>Bone density</th>
             <th>Arthroplasty type</th>

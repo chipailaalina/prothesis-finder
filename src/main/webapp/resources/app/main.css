@@ -217,7 +217,10 @@ textarea {
 
 .footer {
 	text-align: center !important;
-	position: absolute;
+	clear: both;
+	position: relative;
+	height: 40px;
+	margin-top: -40px;
 	bottom: 0;
 	right: 0;
 	padding: 5px;
@@ -408,3 +411,6 @@ h4 {
 	display:inline;
 }
 
+.filter {
+	width: 100% !important;
+}
