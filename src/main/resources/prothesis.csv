@@ -1,10 +1,11 @@
-Sex,Vârst? minim?,Vârst? maxim?,Greutate minim?,Greutate maxim?,Activitate,Densitate ososas? minim?,Densitate osoasa maxim?,Tip de artroplastie,Tip de implant,Tip fixare,Model implant
-M,0,10,30,40,Active,1.5,3,Total,Primary,Concrete,Model1
-M,10,30,40,60,Passive,1.5,3,Hemi,Primary,Concrete,Model2
-F,30,40,50,75,Active,3,5,Total,Revision,Brute,Model3
-M,40,50,60,80,Active,1.5,3,Total,Primary,Concrete,Model4
-F,20,30,40,60,Active,1.5,3,Total,Primary,Concrete,Model5
-M,40,50,60,80,Active,1.5,3,Total,Primary,Brute,Model6
-M,35,50,60,85,Active,1.5,3,Total,Revision,Concrete,Model7
-F,60,75,50,65,Passive,1.5,3,Total,Revision,Brute,Model8
-M,60,75,50,80,Active,1.5,3,Total,Primary,Concrete,Model9
+Sex,Vï¿½rst? minim?,Vï¿½rst? maxim?,Greutate minim?,Greutate maxim?,Activitate,Densitate osoas?,Tip de artroplastie,Tip de implant,Tip fixare,Model implant
+M/F,60,90,70,90,Active,Normal,Total,Revision,Cemented,Model 1
+M/F,60,90,50,70,Passive,Low,Total,Revision,Cemented,Model 2
+M/F,25,59,50,80,Active,Normal,Total,Primary,Press-to-fit,Model 3
+M/F,25,99,50,80,Active,Normal,Total,Primary,Press-to-fit,Model 4
+M/F,60,99,50,80,Active,Low,Total,Primary,Cemented,Model 5
+M/F,14,25,40,80,Active,Normal,Total,Primary,Press-to-fit,Model 6
+M/F,60,99,50,90,Active,Normal,Total,Primary,Press-to-fit,Model 7
+M/F,60,99,50,90,Passive,Low,Total,Revision,Cemented,Model 8
+M/F,60,99,50,90,Passive,Low,Total,Revision,Cemented,Model 9
+M/F,14,59,40,90,Active,Normal,Total,Primary,Cemented/Press-to-fit,Model 10

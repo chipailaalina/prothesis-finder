@@ -1,5 +1,5 @@
 package prothesis.finder.entities;
 
 public enum FixingType {
-    Concrete, Brute;
+    Cemented, Press_to_fit;
 }

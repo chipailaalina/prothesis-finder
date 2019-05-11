@@ -1,5 +1,5 @@
 package prothesis.finder.entities;
 
-public enum Activity {
-    Active, Passive;
+public enum BoneDensity {
+    Normal, Low;
 }

@@ -5,6 +5,7 @@ import lombok.*;
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
+import java.util.List;
 
 @Data
 @Builder
@@ -19,7 +20,7 @@ public class Prothesis {
     private Long id;
 
     @NotNull
-    private Sex sex;
+    private String sex;
 
     @NotNull
     private Double minAge;
@@ -37,10 +38,7 @@ public class Prothesis {
     private Activity activity;
 
     @NotNull
-    private Double minBoneDensity;
-
-    @NotNull
-    private Double maxBoneDensity;
+    private BoneDensity boneDensity;
 
     @NotNull
     private ArthroplastyType arthroplastyType;
@@ -49,7 +47,7 @@ public class Prothesis {
     private ImplantType implantType;
 
     @NotNull
-    private FixingType fixingType;
+    private String fixingType;
 
     @NotBlank
     private String model;
