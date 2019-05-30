@@ -12,72 +12,8 @@
 <body>
 <%@ include file="header.jsp" %>
 
-
-<div class="col-xs-offset-1">
-    <div class="row form-inline col-xs-offset-2">
-        <div class="form-group col-xs-2">
-            <label class="control-label">Sex:</label>
-            <select class="form-control filter" id="sex">
-                <option></option>
-                <option>F</option>
-                <option>M</option>
-            </select>
-        </div>
-        <div class="form-group col-xs-2">
-            <label class="control-label">Age [years]:</label>
-            <input class="form-control filter" maxlength="5" id="age" type="number"/>
-        </div>
-        <div class="form-group col-xs-2">
-            <label class="control-label">Weight [kg]:</label>
-            <input class="form-control filter" maxlength="5"  id="weight" type="number"/>
-        </div>
-        <div class="form-group col-xs-2">
-            <label class="control-label">Activity:</label>
-            <select class="form-control filter" id="activity">
-                <option></option>
-                <option>Active</option>
-                <option>Passive</option>
-            </select>
-        </div>
-    </div>
-    <br>
-    <div class="row form-inline col-xs-offset-2">
-        <div class="form-group col-xs-2">
-            <label class="control-label">Bone density:</label>
-            <select class="form-control filter" id="boneDensity">
-                <option></option>
-                <option>Normal</option>
-                <option>Low</option>
-            </select>
-        </div>
-        <div class="form-group col-xs-2">
-            <label class="control-label">Arthroplasty type:</label>
-            <select class="form-control filter" id="arthroplastyType">
-                <option></option>
-                <option>Total</option>
-                <option>Hemi</option>
-            </select>
-        </div>
-        <div class="form-group col-xs-2">
-            <label class="control-label">Implant type:</label>
-            <select class="form-control filter" id="implantType">
-                <option></option>
-                <option>Primary</option>
-                <option>Revision</option>
-            </select>
-        </div>
-        <div class="form-group col-xs-2">
-            <label class="control-label">Fixing type:</label>
-            <select class="form-control filter" id="fixingType">
-                <option></option>
-                <option>Cemented</option>
-                <option>Press-to-fit</option>
-            </select>
-        </div>
-    </div>
-</div>
 <div class="col-xs-10 col-xs-offset-1">
-    <table class="table table-striped table-hover">
+    <table class="table table-bordered table-hover">
         <thead>
         <tr>
             <th>Sex</th>
@@ -92,6 +28,7 @@
             <th>Fixing type</th>
             <th>Implant model</th>
             <th>Implant brochure</th>
+            <th>Acetabular component</th>
         </tr>
         </thead>
         <tbody>
@@ -109,6 +46,7 @@
                 <td>${prot.fixingType}</td>
                 <td><a href="./resources/images/${prot.model}.jpg" target="_blank"><img src="./resources/images/${prot.model}.jpg" height="120px" alt="" border="0" /></a></td>
                 <td><a href="./resources/brochures/${prot.model}.pdf" target="_blank">Open brochure</a></td>
+                <td><a href="./resources/app/LogoFindYourProthesis.jpg" target="_blank"><img src="./resources/app/LogoFindYourProthesis.jpg" height="120px" alt="" border="0" /></a></td>
             </tr>
         </c:forEach>
         </tbody>

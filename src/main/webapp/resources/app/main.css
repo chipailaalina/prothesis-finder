@@ -29,7 +29,7 @@ button.textButton {
 }
 
 button.headerButton {
-	background: white;
+	background: transparent;
 	border: none;
 }
 
@@ -161,14 +161,14 @@ textarea {
 
 .logoAA {
 	float: left;
-	margin-right: 100px;
+	width: 300px;
 }
 
 .navbar {
 	/* min-height: 60px; */
 	padding-left: 20px;
 	padding-right: 20px;
-	background-color: white;
+	background-color: black;
 	border: 1px solid #0a0008;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -413,4 +413,23 @@ h4 {
 
 .filter {
 	width: 100% !important;
+}
+
+.control-label {
+    color: white;
+}
+
+.header-right {
+    float: right;
+	margin-right: 235px;
+}
+
+.header-right-title {
+	float: right;
+	margin-right: calc((100% - 500px) / 2);
+	margin-bottom: 100px;
+}
+
+h1, a {
+	color: #00acdc;
 }
